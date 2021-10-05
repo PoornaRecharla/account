@@ -1,0 +1,115 @@
+
+/* .filter_div { */
+    /* background-color: #d3f1d5; */
+    /* background-color: #e6e6e6; */
+    /* background-color: dodgerblue; */
+    /* background-color: #fec530; */
+    /* background-color: #2A67B1; */
+    /* display: grid;
+    place-self: start center;
+    width: 25vw;
+    
+}
+
+.filter_body_div {
+    background-color: #e2f1fc;
+    max-height: 90vh;
+    overflow: auto;
+} */
+
+
+.filter_input_box {
+    padding: 0.5ch;
+    background-color: #ffff;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.filter_list_data {
+    max-height: 85vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.filter_div {
+    display: grid;
+    place-self: start center;
+    width: 50ch;
+    background-color: #e2f1fc;
+    font-size: 0.9rem;
+}
+
+.filter_title_div {
+    border: 1px solid #c6c6c6;
+    /* border-top: 1px solid #c6c6c6;
+    border-right: 1px solid #c6c6c6; */
+
+}
+
+.filter_body_div {
+    padding: 5px;
+    /* padding-bottom: 5px; */
+    border: 1px solid #c6c6c6;
+    /* border-right: 1px solid #c6c6c6;
+    border-bottom: 1px solid #c6c6c6; */
+
+}
+
+.filter-box {
+    background: #fff;
+    border: 2px solid #cdcdcd;
+    border-radius: 5px;
+    z-index: 200;
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 350px;
+    display: none;
+    top: 150px;
+    height: 180px;
+}
+
+#mv_title {
+    display: block;
+    font-weight: bold;
+}
+
+#searchBox {
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 30px;
+    padding-left: 8px;
+}
+
+.list-header {
+    text-align: left;
+    background-color: #2A67B1;
+    color: white;
+    font-weight: bold;
+    height: 20px;
+    padding-top: 2px;
+    padding-left: 6px;
+}
+
+#selectList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.expand-btn {
+    float: right;
+    padding-right: 0.5ch;
+    /* padding-top: 1pt; */
+}
+
+.collapsible {
+    padding-top: 0.5ch;
+    padding-bottom: 0.1ch;
+    font-weight: bold;
+}
+
+.drilldown {
+    cursor: pointer;
+}

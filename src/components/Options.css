@@ -1,0 +1,19 @@
+.options{
+    /* height: calc("100vh - 10px"); */
+    /* width: 15vw; */
+    box-sizing: border-box;
+    height: 98vh;
+    background-color: #DEF1FC;
+    /* border: 2px solid black; */
+    /* width: 15vw; */
+}
+
+.options li {
+    font-size: 0.95em;
+    margin: 5px 5px;
+    background-color: #ffffff;
+    padding: 2px 25px;
+}
+.f {
+    color: #235DBF;
+}

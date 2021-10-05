@@ -1,0 +1,16 @@
+.highlightedElement {
+    background-color: #FEC530;
+}
+
+.selected_item {
+    background-color: #FEC530;
+}
+
+#box  {
+    max-height: 90vh;
+    overflow: auto;
+}
+
+.list_item {
+    cursor: pointer;
+}

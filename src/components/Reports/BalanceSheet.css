@@ -1,0 +1,45 @@
+#BalanceSheet {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-height: 98vh;
+    margin: 50px 10px 10px 5px;
+    /* width: 80vw; */
+}
+
+.ledger {
+    padding-left: 1ch;
+}
+
+.bold {
+    font-weight: 600;
+}
+.amount1 {
+    text-align: right;
+    margin-left: auto;
+    padding-right: 2ch;
+    width: 15ch;
+}
+
+.amount2 {
+    text-align: right;
+    margin-left: auto;
+    padding-right: 2ch;
+    width: 15ch;
+}
+
+th {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    font-weight: 600;
+    text-align: center;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.notbold {
+    font-weight: 100;
+}
