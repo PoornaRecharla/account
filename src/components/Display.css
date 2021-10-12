@@ -1,0 +1,10 @@
+.Display {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* place-items: center; */
+}
+
+.dd {
+    display: grid;
+    place-items: center;
+}

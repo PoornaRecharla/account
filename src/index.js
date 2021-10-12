@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+// import "./components/App.css";
 import App from './components/App';
 import Options from './components/Options'
 // import Home from './components/Home'

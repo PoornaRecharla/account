@@ -25,7 +25,17 @@ const Options = () => {
                     <li>
                         {/* <Link to="/">Home page</Link> */}
                         <a href="/home"> Home </a>
-                        <a href="/display"> Display </a>
+                        {/* <a href="/display"> Display </a>
+                        <a href="/bs">Balance Sheet</a> */}
+                    </li>
+                    <li>
+                        <a href="/display">Display</a>
+                    </li>
+                    <li>
+                        <a href="/bs">Balance Sheet</a>
+                    </li>
+                    <li>
+                        <a href="/Create Ledger">Create Ledger</a>
                     </li>
                 </ul>
             </div>
